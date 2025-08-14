@@ -1,0 +1,5 @@
+def OnetoN(n):
+    if n!=0:
+        print(n)
+        OnetoN(n-1)
+OnetoN(5)
